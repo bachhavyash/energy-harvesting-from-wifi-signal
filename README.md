@@ -21,6 +21,18 @@ by harvesting, storing, and intelligently utilizing ambient RF energy.
 
 ---
 
+## 📖 Documentation Sections
+
+- [Introduction](01_introduction/introduction.md)
+- [Theory – RF Energy Harvesting](02_theory/rf_energy_harvesting.md)
+- [System Architecture & Design](03_system_design/system_architecture.md)
+- [Hardware Implementation](04_hardware_implementation/hardware_implementation.md)
+- [Experimental Results & Performance](05_experimental_results/experimental_results.md)
+- [Applications & Future Scope](06_applications_future_scope/applications_future_scope.md)
+- [Component List & Cost](component_list.md)
+- [References](references.md)
+
+
 ## 🔋 Energy Storage & Continuous Operation Strategy
 
 Ambient Wi-Fi energy is inherently **low and inconsistent**, making it
