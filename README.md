@@ -61,6 +61,21 @@ harvest, store, and utilize low-power ambient Wi-Fi energy.
 This architecture ensures reliable operation despite the low and intermittent
 nature of ambient Wi-Fi energy.
 
+## 🖼 System Diagrams and Hardware
+
+### Block Diagram
+![Block Diagram](images/block_diagram.png)
+
+### Circuit Diagram
+![Circuit Diagram](images/circuit_diagram.png)
+
+### PCB Layout
+![PCB Layout](images/pcb_layout.png)
+
+### Hardware Setup
+![Hardware Setup](images/hardware_setup.png)
+
+
 
 ### Why Energy Storage Is Necessary
 - Wi-Fi signals do not provide constant power levels
