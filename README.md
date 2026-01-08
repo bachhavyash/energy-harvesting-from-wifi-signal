@@ -33,6 +33,35 @@ The harvested RF energy is first converted to DC and stored in an
 The stored energy is then used to power the load **only when sufficient
 energy has been accumulated**.
 
+## 🧠 System Architecture
+
+The proposed system follows a stage-wise architecture designed to efficiently
+harvest, store, and utilize low-power ambient Wi-Fi energy.
+
+### System Flow
+1. **RF Energy Capture**  
+   A 2.4 GHz patch antenna captures ambient Wi-Fi RF signals from nearby routers.
+
+2. **RF-to-DC Conversion**  
+   The captured high-frequency AC signal is rectified using a Schottky diode-based
+   rectifier circuit to obtain DC voltage.
+
+3. **Energy Storage**  
+   The rectified DC energy is stored in a supercapacitor, which acts as an energy
+   buffer to accumulate charge over time.
+
+4. **Voltage Boosting**  
+   A DC-DC boost converter steps up the stored low voltage to a usable level
+   (3.3 V / 5 V) required by electronic devices.
+
+5. **Load Operation**  
+   A low-power device (ESP32) operates using the stored energy, typically in
+   intermittent or duty-cycled mode.
+
+This architecture ensures reliable operation despite the low and intermittent
+nature of ambient Wi-Fi energy.
+
+
 ### Why Energy Storage Is Necessary
 - Wi-Fi signals do not provide constant power levels
 - Instantaneous harvested power is very low
