@@ -107,3 +107,8 @@ been accumulated**.
 - ✔ Experimental validation completed  
 - ✔ Documentation finalized  
 - 🔄 Further optimization possible (antenna efficiency, rectifier design)
+
+---
+
+## 📜 License
+This project is licensed under the MIT License.
