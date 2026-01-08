@@ -102,6 +102,23 @@ been accumulated**.
 
 ---
 
+## 📡 Antenna Design and Analysis
+
+### Patch Antenna Dimensions (Approximate)
+![Patch Antenna Dimensions](images/antenna/patch_antenna_dimensions.png)
+
+### Patch Antenna Frequency & Wavelength
+![Antenna Frequency and Wavelength](images/antenna/frequency_wavelength.png)
+
+---
+
+## 🧪 Hardware Analysis and Components
+
+### Hardware Analysis
+![Hardware Analysis](images/hardware/hardware_analysis.png)
+
+---
+
 ## 📌 Project Status
 - ✔ Hardware prototype implemented  
 - ✔ Experimental validation completed  
