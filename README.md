@@ -32,6 +32,7 @@ by harvesting, storing, and intelligently utilizing ambient RF energy.
 - [Component List & Cost](component_list.md)
 - [References](references.md)
 
+---
 
 ## 🔋 Energy Storage & Continuous Operation Strategy
 
@@ -44,6 +45,8 @@ The harvested RF energy is first converted to DC and stored in an
 **energy storage element (supercapacitor)**.
 The stored energy is then used to power the load **only when sufficient
 energy has been accumulated**.
+
+---
 
 ## 🧠 System Architecture
 
@@ -73,6 +76,8 @@ harvest, store, and utilize low-power ambient Wi-Fi energy.
 This architecture ensures reliable operation despite the low and intermittent
 nature of ambient Wi-Fi energy.
 
+---
+
 ## 🖼 System Diagrams and Hardware
 
 ### Block Diagram
@@ -87,18 +92,22 @@ nature of ambient Wi-Fi energy.
 ### Hardware Setup
 ![Hardware Setup](images/hardware_setup.png)
 
-
+---
 
 ### Why Energy Storage Is Necessary
 - Wi-Fi signals do not provide constant power levels
 - Instantaneous harvested power is very low
 - Direct powering leads to unstable operation
 
+---
+
 ### Benefits of Energy Storage
 - Enables continuous system availability
 - Allows devices to operate on-demand
 - Supports intermittent but reliable operation
 - Makes the system practical for real-world IoT use cases
+
+---
 
 By storing energy first and utilizing it intelligently, the system ensures
 that devices receive power **when required**, rather than depending on
