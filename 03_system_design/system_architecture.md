@@ -58,7 +58,7 @@ devices is not practical.
 
 A **supercapacitor (1F)** is used as an energy storage element to:
 - Accumulate energy over time
-- Smooth voltage variations
+- Smooth voltage variations 
 - Act as an energy buffer between harvesting and usage
 
 The supercapacitor enables **energy availability on demand**, allowing
