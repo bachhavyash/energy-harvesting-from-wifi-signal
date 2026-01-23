@@ -17,7 +17,7 @@ by harvesting, storing, and intelligently utilizing ambient RF energy.
 - Harvest ambient Wi-Fi (2.4 GHz) RF energy  
 - Convert RF energy into DC power  
 - Store harvested energy for later use  
-- Power low-power devices reliably using stored energy  
+- Power low-power devices reliably using stored energy
 
 ---
 
